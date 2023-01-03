@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800&display=swap');
+html {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+
+body {
+    font-size: 1.6rem;
+    line-height: 2.1rem;
+    font-family: 'Poppins', sans-serif;
+    color: rgba(0,0,0,.87);
+    margin: 0;
+}
+
+.home {
+    
+}
+
+.purpose {
+    padding: 50px 0px;
+    margin: 0px 162.5px;
+    display: flex;
+}
+.purpose__content {
+    flex: 2;
+}
+.text__title {
+    margin: 0px;
+    margin-top: 5px;
+    font-size: 32px;
+}
+.tx__1 {
+    font-size: 16px;
+    color: #00000099;
+    width: 95%;
+}
+.purpose__quote {
+    flex: 1;
+    background: #4D77FF;
+    border-radius: 30px;
+    color: #FFFFFF;
+}
+.quote {
+    font-size: 38px;
+    margin: 0px 6px;
+    padding: 40px 20px 20px;
+    line-height: 50px;
+}
+
+.bliblioneer {
+    display: flex;
+    margin: 50px 162.5px;
+    padding: 50px 0px;
+    background: #4D77FF;
+    border-radius: 30px;
+}
+.bliblioneer__image {
+    /* align-items: center; */
+    margin: 0;
+}
+.image__bliblioneer__image {
+    margin: 0px 24px;
+    width: 460.8px;
+    height: 465.8px;
+}
+.bliblioneer__card {
+    background: #FFFFFF;
+    border-radius: 20px;
+    width: 47.9%;
+    
+}
+.card__content {
+    margin: 0;
+    padding: 20px;
+}
+
+.card_title {
+    font-size: 30px;
+    line-height: 40px;
+    margin: 0px 0px 10px;
+}
+.text__grey {
+    color: #5C5C5C;
+    margin: 0px 0px 16px;
+}
+
+.values_section_container {
+    padding: 0px 0px 122px;
+    display: flex;
+    background: #4D77FF;
+    
+}
+.values {
+    /* display: flex; */
+}
+.values__main__container {
+    padding: 15px 0px 30px;
+    margin: 50px 162.5px;
+    color: #FFFFFF;
+}
+.main__container {
+    display: flex;
+    flex-wrap: nowrap;
+}
+.blue__card__values__container__R__selected {
+    display: flex;
+    width: 499px;
+}
+.blue__card__content__values__content {
+    width: 499px;
+    height: 310px;
+}
+.values__content__letter__text {
+    display: flex;
+}
+
+.blue__card__values__container__E1{
+    display: none;
+}
+.blue__card__values__container__S {
+    display: none;
+}
+
+.blue__card__values__container__P {
+    display: none;
+}
+.blue__card__values__container__E2{
+    display: none;
+}
+.blue__card__values__container__C {
+    display: none;
+}
+.blue__card__values__container__T {
+    display: none;
+}
