@@ -1,12 +1,16 @@
-function coba(R) {
-    var myElement = document.getElementById(R);
-    if (myElement) myElement.style.display = "none";
-    showLink.style.display = "block";
-    hideLink.style.display = "none";
+const panels = document.querySelectorAll('.selected');
+
+function toggleOpen() {
+  this.classList.toggle('open');
 }
-function cobaLagi(R) {
-    var myElement = document.getElementById(R);
-    if (myElement) myElement.style.display = "block";
-    showLink.style.display = "none";
-    hideLink.style.display = "block";
+
+function toggleOpenActive(e) {
+  console.log(e.propertyName); 
+
+  if (e.propertyName.includes('flex')) {
+    this.classList.toggle('selected');
+  }
 }
+
+panels.forEach(panel => panel.addEventListener('click', toggleOpen));
+panels.forEach(panel => panel.addEventListener('transitionend', toggleOpenActive));
