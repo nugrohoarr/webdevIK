@@ -124,6 +124,19 @@ body {
     flex-wrap: nowrap;
     border: 1px solid black;
 }
+.collapsible {
+    cursor: pointer;
+}
+
+.active {
+    display: none;
+}
+
+.values_content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+}
 
 .blue-card {
     border-radius: 16px;
@@ -145,7 +158,7 @@ body {
     margin: auto;
 }
 .selected {
-    width: 44px;
+    width: 44%;
     flex: 7;
 }
 
@@ -165,6 +178,7 @@ body {
     display: flex;
     gap: 20px;
 }
+
 .blu__card {
     background: #fff;
     border-radius: 16px;
